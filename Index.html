@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <title>TIKE</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="TIKElogo.png" alt="logo">
+        <nav>
+            <div>
+                <ul class="linkovi">
+                    <li><a href="#Registracija">Registruj se</a></li>
+                    <li><a href="#patike">Proizvodi</a></li>
+                    <li><a href="#novosti">Novosti</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p style="color: black;"><strong>Dobrodosli u TIKE!</strong></p>
+    </header>
+
+    <section>
+        <div class="forma" id="Registracija">
+            <h1 style="text-align: center;">Registrujte se i ostvarite popust od<br>10% na prvu kupovinu</h1>
+            <form id="forma">
+                <label for="Ime">Ime</label><br>
+                <input type="text" id="Ime" name="Ime"><br>
+                <label for="Prezime">Prezime</label><br>
+                <input type="text" id="Prezime" name="Prezime"><br>
+                <label for="Email">Email adresa</label><br>
+                <input type="email" id="Email" name="Email"><br>
+                <label for="Sifra">Sifra</label><br>
+                <input type="password" id="Sifra" name="Sifra"><br>
+                <label for="Potvrda">Potvrdi sifru</label><br>
+                <input type="password" id="Potvrda" name="Potvrda"><br>
+                <label for="Grad">Grad</label><br>
+                <input type="text" id="Grad" name="Grad"><br><br>
+                <label for="Godiste">Godina rodjenja</label>
+                <select name="Godiste" id="Godiste" form="forma" style="margin-bottom: 10px;">
+                    <option value="1">2002.</option>
+                    <option value="2">2001.</option>
+                    <option value="3">2000.</option>
+                    <option value="4">1999.</option>
+                    <option value="5">1998.</option>
+                    <option value="6">1997.</option>
+                    <option value="7">1996.</option>
+                    <option value="8">1995.</option>
+                    <option value="9">1994.</option>
+                    <option value="10">1993.</option>
+                </select><br>
+                <input type="submit" value="Registruj se">
+            </form>
+        </div>
+
+        <div class="patike" id="patike">
+            <div class="patike1">
+                <img src="Jordan 11.jpg" style="max-width: 100%;  max-height:100%;">
+                <h1 style="text-align: center;">Jordan 11 </h1>
+                <h3 style="text-align: center;">24.999din</h3>
+                <p style="color: black;">Sifra artikla:J11</p>
+                
+            </div>
+            <div class="patike2">
+                <img src="Jordan 6.2.jpg">
+                <h1 style="text-align: center;">Jordan 6</h1>
+                <h3 style="text-align: center;">29.999din</h3>
+                <p style="color: black;">Sifra artikla:CT5350-401</p>
+                
+            </div>
+            <div class="patike3">
+                <img src="Kacket.jpg">
+                <h1 style="text-align: center;">Jordan kacket </h1>
+                <h3 style="text-align: center;">3490din</h3>
+                <p style="color: black;">Sifra artikla:311046-116</P>
+                
+            </div>
+            <div class="patike4">
+                <img src="Jordan 3.jpg">
+                <h1 style="text-align: center;">Jordan 3</h1>
+                <h3 style="text-align: center;">21999din</h3>
+                <p style="color: black;">Sifra artikla: CZ6431-100</p>
+            </div> 
+            <div class="ostalo">
+                <h3>Unesite sifru artikla koji zelite da kupite</h3>
+                <input type="text">
+                <button>Dodaj u korpu</button>
+            </div>
+        </div>
+        <h1 style="text-align:center; margin-bottom: 5px;">Novosti</h1>
+        <div class="novosti" id="novosti">
+
+            <div>
+
+                <h1>Nike izbacuje novi model Jordan 1 "Dark mocha"</h1>
+                <h3>Release date:31.10.2020.</h3>
+                <p style=" color: black">Fanovi Jordan patika napokon ce imati priliku da kupe ovaj model nakon sto je najavljen jos u novembru 2019. i cena ce biti oko 170$.</p>
+                <img src="jorda1-dark-mocha.jpg" class="imgn1">
+
+            </div>
+            <div>
+
+                <h1>Jordan 6 "Infrared"</h1>
+                <h3>Release date: 16.02.2019</h3>
+                <p style="color: black">Jordan 6 "Infrared" najpopularnije Jordan patike 2019. godine.</p>
+                <img src="Jordan6.jpg" class="imgn2">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div>
+            <p style="display:inline-block">Milan Gajic</p>
+
+            <p style="display:inline-block">S33/2019</p>
+
+            <p style="display:inline-block"></p>
+
+            <p style="display:inline-block">mgajic3319s@raf</p>
+
+            <p style="display:inline-block">062-1206-818</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
